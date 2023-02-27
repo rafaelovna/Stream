@@ -23,7 +23,7 @@ public class HomeWork1 {
         Stream<Integer> stream = list.stream();
 
         System.out.println("Задание 1. Метод findMinMax.");
-        findMinMax(stream, Comparator.naturalOrder(), (x, y) -> System.out.println(x + " - min начение. " + y + " - max значение."));
+        findMinMax(stream, Comparator.naturalOrder(), (x, y) -> System.out.println(x + " - min значение. " + y + " - max значение."));
 
 
         System.out.println("Задание 2. Выводит четные числа и их количество.");
